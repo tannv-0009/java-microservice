@@ -58,7 +58,7 @@ CQRS, REST, Web Sockets, Continuous deploy with Jenkins, and all developed using
 * `docker-compose -p todo up` 
 
 ## Continuous deploy using Jenkins Pipeline
-We have created a docker image in order to have continuous deploy in our project [here](https://github.com/apssouza22/build-deploy).
+We have created a docker image in order to have continuous deploy in our project [here](https://github.com/tannv-0009/build-deploy).
 
 This image will contain all necessary to build our project, create the Docker images and 
 deploy on AWS using ECS containers. 
@@ -78,7 +78,7 @@ to check how to work with Jenkins pipeline
 * Run the Job
 
 ### Accessing the services
-* Authenticate -> ```curl -X POST -vu todo-app:123456 http://localhost:8017/oauth/token -H "Accept: application/json" -d "password=1234&username=apssouza22@gmail.com&grant_type=password&scope=write&client_secret=123456&client_id=todo-app"```   
+* Authenticate -> ```curl -X POST -vu todo-app:123456 http://localhost:8017/oauth/token -H "Accept: application/json" -d "password=1234&username=tannv-0009@gmail.com&grant_type=password&scope=write&client_secret=123456&client_id=todo-app"```   
 
 * Get data using the access_token -> `localhost:8018/accounts?access_token={access_token}` or `curl -H "Authorization: Bearer $TOKEN" "localhost:8018/path"`
 

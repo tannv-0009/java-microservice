@@ -33,7 +33,7 @@ public class NotifyController {
             String uuid = UUID.randomUUID().toString();
             EmailCreateCommand command = new EmailCreateCommand(
                     uuid,
-                    new Email("Alexsandro", "apssouza22@gmail.com", EmailState.CREATED)
+                    new Email("Alexsandro", "tannv-0009@gmail.com", EmailState.CREATED)
             );
             Executors.newCachedThreadPool().submit(() -> {
                 try {

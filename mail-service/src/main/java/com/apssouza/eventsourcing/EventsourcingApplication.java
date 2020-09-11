@@ -21,7 +21,7 @@ public class EventsourcingApplication {
 //        
 //        UUID randomUUID = UUID.randomUUID();
 //        
-//        EmailCreateCommand commandCreate = new EmailCreateCommand(randomUUID, "Alex", "apssouza22@gmail.com");
+//        EmailCreateCommand commandCreate = new EmailCreateCommand(randomUUID, "Alex", "tannv-0009@gmail.com");
 //        EmailSendCommand send = new EmailSendCommand(randomUUID, Instant.now());
 //        EmailDeliveryCommand delivery = new EmailDeliveryCommand(randomUUID, Instant.now());
 //        EmailDeleteCommand delete = new EmailDeleteCommand(randomUUID);

@@ -80,7 +80,7 @@ public class TodoControllerTest {
         this.mockMvc = webAppContextSetup(webApplicationContext).build();
 
         this.todoRepository.deleteAllInBatch();
-        ToDo toDo1 = new ToDo("apssouza22@gmail.com","caption 1", "description 1", 5);
+        ToDo toDo1 = new ToDo("tannv-0009@gmail.com","caption 1", "description 1", 5);
         ToDo toDo2 = new ToDo("alex@gmail.com","caption 2", "description 2", 4);
 
         Attachment attach1 = new Attachment("planilha", "xls");

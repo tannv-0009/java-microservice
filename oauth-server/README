@@ -9,4 +9,4 @@ self-contained way for securely transmitting information between parties as a JS
 
 
 To authenticate:
-curl -X POST -vu todo-app:123456 http://localhost:8017/oauth/token -H "Accept: application/json" -d "password=1234&username=apssouza22@gmail.com&grant_type=password&scope=write&client_secret=123456&client_id=todo-app"
+curl -X POST -vu todo-app:123456 http://localhost:8017/oauth/token -H "Accept: application/json" -d "password=1234&username=tannv-0009@gmail.com&grant_type=password&scope=write&client_secret=123456&client_id=todo-app"

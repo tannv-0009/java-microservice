@@ -3,7 +3,7 @@
 ########################################################################
 # title:          Build Complete Project
 # author:         Alexsandro souza (https://apssouza.com.br)
-# url:            https://github.com/apssouza22
+# url:            https://github.com/tannv-0009
 # description:    Build complete Java microservice project
 # usage:          sh ./build_project.sh
 ########################################################################

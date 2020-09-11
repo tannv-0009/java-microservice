@@ -35,7 +35,7 @@ public class EmailCommandHandlerTest {
         String uuid = UUID.randomUUID().toString();
         EmailCreateCommand command = new EmailCreateCommand(
                 uuid,
-                new Email("Alexsandro", "apssouza22@gmail.com", EmailState.CREATED)
+                new Email("Alexsandro", "tannv-0009@gmail.com", EmailState.CREATED)
         );
         commandHandler.create(command);
         verify(eventPublisher, Mockito.times(1)).publish(Mockito.anyObject());

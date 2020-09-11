@@ -1,7 +1,7 @@
 FROM openjdk:8
 
 
-MAINTAINER Alexsandro <apssouza22@gmail.com>
+MAINTAINER Alexsandro <tannv-0009@gmail.com>
 ENV REFRESHED_AT 2017-09-17
 
 ENV TERM xterm
